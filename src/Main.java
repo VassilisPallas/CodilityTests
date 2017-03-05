@@ -5,6 +5,7 @@ import Lesson3.FrogJmp;
 import Lesson3.PermMissingElem;
 import Lesson3.TapeEquilibrium;
 import Lesson4.MissingInteger;
+import Lesson4.PermCheck;
 
 import java.util.Arrays;
 
@@ -33,8 +34,12 @@ public class Main {
 //        int[] TapeEquilibrium = {-10, -20, -30, -40, 100};
 //        System.out.println(new TapeEquilibrium().solution(TapeEquilibrium));
 
-        // MissingInteger
-        int[] MissingInteger = {1, 3, 6, 4, 1, 2};
-        System.out.println(new MissingInteger().solution(MissingInteger));
+//        // MissingInteger
+//        int[] MissingInteger = {1, 3, 6, 4, 1, 2};
+//        System.out.println(new MissingInteger().solution(MissingInteger));
+
+        // PermCheck
+        int[] PermCheck = {4, 1, 3};
+        System.out.println(new PermCheck().solution(PermCheck));
     }
 }
