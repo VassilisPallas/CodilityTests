@@ -2,6 +2,7 @@ import Lesson1.BinaryGap;
 import Lesson2.CyclicRotation;
 import Lesson2.OddOccurrencesInArray;
 import Lesson3.FrogJmp;
+import Lesson3.PermMissingElem;
 
 import java.util.Arrays;
 
@@ -21,5 +22,9 @@ public class Main {
 
         // FrogJmp
         System.out.println(new FrogJmp().solution(10, 85, 30));
+
+        // PermMissingElem
+        int[] PermMissingElem = {2, 3, 1, 5};
+        System.out.println(new PermMissingElem().solution(PermMissingElem));
     }
 }
